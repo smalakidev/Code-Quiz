@@ -1,3 +1,6 @@
+
+//This var questions bank is an object with its
+//properties and its values.
 var questionsBank = [
     {
         question: "What is the capital of Hungary?",
@@ -27,10 +30,8 @@ var questionsBank = [
 ];
 
 
-console.log("THIS IS THIS", this)
-
-//getElementbyID allows us to be able to click on anything
-//with an ID name on the HTMl and work accordingly
+//getElementbyID allows us to be able to reference an HTML
+//with an ID name and work accordingly.
 var startBtn = document.getElementById("startBtn");
                   //  $("#startBtn"); jQuery;
 var quizArea = document.getElementById("quizArea");
@@ -133,7 +134,7 @@ startBtn.addEventListener("click", function(){
     quizArea.removeAttribute("class");
     startScreen.setAttribute("class", "hide");
 
-    //timer
+    //timer function here gets the timer to work
     timer = setInterval(clock, 1000);
     //create a function to diaplay question and choices
     getQuestion();

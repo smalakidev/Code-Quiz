@@ -1,4 +1,5 @@
 //get scores from local storage or set empty array if key dosent exist
+localStorage.setItem
 
 //sort the score by highest to lowest 
 
@@ -9,7 +10,7 @@
 
 
     //create a button to go back to index.html
-    
+
     //create a button to clear(empty scores from localstorage and screen )
 
 
