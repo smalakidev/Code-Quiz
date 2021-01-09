@@ -1,19 +1,28 @@
 var questionsBank = [
     {
-        question: "What HTML Stand for?",
-        choices: ["tues", "mon", "frid"],
-        answer: "fridH"
+        question: "What is the capital of Hungary?",
+        choices: ["Bucharest", "Manchester", "Budapest"],
+        answer: "Budapest"
     },
     {
-        question: "what color do you like?",
-        choices: ["blue", "yello", "green"],
-        answer: "green"
+        question: "What is the capital of Wales?",
+        choices: ["Cardiff", "Colwynn Bay", "Brandenburg"],
+        answer: "Cardiff"
     },    
     {
-        question: "what is the sky?",
-        choices: ["tues", "mon", "frid"],
-        answer: "frid"
+        question: "What is the capital of Argentina?",
+        choices: ["Managua", "Tegucigalpa", "Buenos Aires"],
+        answer: "Buenos Aires"
     },
+    {   question: "What is the capital of Rwanda?",
+        choices : ["Mombasa", "Kigali", "Nairobi"],
+        answer: "Kigali"
+    },
+    {
+        question: "What is the capital of Kenya?",
+        choices: ["Kinshasa", "Nairobi", "Mombasa"],
+        answer: "Nairobi"
+    }
 
 ];
 
